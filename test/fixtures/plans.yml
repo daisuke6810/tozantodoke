@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  leader: MyString
+  from_date: 2012-09-29
+  to_date: 2012-09-29
+  destination: MyString
+  detail: MyText
+
+two:
+  leader: MyString
+  from_date: 2012-09-29
+  to_date: 2012-09-29
+  destination: MyString
+  detail: MyText

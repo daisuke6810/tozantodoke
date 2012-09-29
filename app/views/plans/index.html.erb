@@ -1,0 +1,25 @@
+<h1>Listing plans</h1>
+
+<table>
+  <tr>
+    <th>Leader</th>
+    <th>From date</th>
+    <th>To date</th>
+    <th>Destination</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @plans.each do |plan| %>
+  <tr>
+    <td><%= plan.leader %></td>
+    <td><%= plan.from_date %></td>
+    <td><%= plan.to_date %></td>
+    <td><%= plan.destination %></td>
+    <td><%= link_to 'Show', plan %></td>
+    <td><%= link_to 'Edit', edit_plan_path(plan) %></td>
+    <td><%= link_to 'Destroy', plan, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>

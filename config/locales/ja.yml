@@ -1,2 +1,7 @@
 ja:
   app_title : "登山届.net"
+  date :
+    order : 
+      - :year
+      - :month
+      - :day

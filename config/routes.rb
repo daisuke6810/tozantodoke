@@ -1,4 +1,6 @@
 AwsHandsOn2::Application.routes.draw do
+  resources :plans
+
   root :to => 'top#index'
   
   
