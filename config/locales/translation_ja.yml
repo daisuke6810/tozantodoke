@@ -1,0 +1,14 @@
+ja:
+  app_title: "登山届.net"
+  activerecord:
+    models:
+      plan: 登山届  #g
+
+    attributes:
+      plan:
+        destination: 目的地  #g
+        detail: 詳細  #g
+        from_date: 出発日  #g
+        leader: リーダーの名前  #g
+        to_date: 到着日  #g
+
