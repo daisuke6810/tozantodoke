@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= APP_DISP_NAME %></title>
+  <title><%= t "app_title" %></title>
   <%= stylesheet_link_tag    "application" %>
+  <%= stylesheet_link_tag    "bootstrap-mycolor" %>
   <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "bootstrap.min" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+		<a class="brand" href="/"><%= t "app_title" %></a>
+    </div>
+  </div>
+</div>
 
 <%= yield %>
 
